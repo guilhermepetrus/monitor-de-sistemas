@@ -4,7 +4,7 @@ const fs = require('node:fs');
 function saveLog({ platform, arch, cpu, uptime, ramUsage, ramTotal, ramUsagePercent }) {
     
     const logContent = `## DETALHES DO SISTEMA
-Sitema Operacional: ${platform}
+Sistema Operacional: ${platform}
 Arquitetura do Sistema: ${arch}
 Modelo do Processador: ${cpu}
 Tempo de Atividade do Sistema: ${uptime}
